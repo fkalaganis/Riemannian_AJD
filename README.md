@@ -9,7 +9,16 @@ The reposity contains code for data generation and method implementation of the 
 ### Memo_Riemannian_JD_synthetic_TV:
 >Contains the code for SPD matrix Quantization on synthetic data. Two classes of data are being generated. In the first a diple is activated with alpha energy increasing over time. In the secorn class, the same dipople is activated with decreasing energy over time. The same mixing matrix is applied in both cases and the rest of dipoles are assigned with pink noise. The concept here is to demonstrate that the symbolic timeseries (stemming from the quantization of AJDed spatial coviariance matrices) are capable of capturing, these simple yet subtle, dynamics. Since the colorcoding is based on the Riemannian k-Means algorithm, a re-arrangement of the codebook might be essential so as to match the blue (low energy) to yellow (high energy) hue.
 
-Please note that the provided folders, **Created Functions** and **Dependencied**, should be added to matlab's path.
+Please note that the provided folders, **Created Functions** and **Dependencied**, should be added to matlab's path. In case of usage, please acknowledge the following works accordingly:
+- SPD Toolbox
+  - K. You, H.-J. Park, Re-visiting riemannian geometry of symmetric positive definite matrices for the analysis of functional connectivity, NeuroImage 225 (2021) 117464.
+- Synthetic Data Generation
+  - M. X. Cohen, A data-driven method to identify frequency boundaries in multichannel electrophysiology data, Journal of Neuroscience Methods 347 (2021) 108949
+  - Gramfort, T. Papadopoulo, E. Olivi, M. Clerc, OpenMEEG: open-source software for quasistatic bioelectromagnetics, Biomedical engineering online 9 (1) (2010) 1–20
+- Approximate Joint Diagonalization
+  - J.-F. Cardoso, A. Souloumiac, Jacobi angles for simultaneous diagonalization, SIAM journal on matrix analysis and applications 17 (1) (1996) 161–164.
+- Karcher Mean
+  - D.A. Bini and B. Iannazzo, "Computing the Karcher mean of symmetric positive definite matrices", Linear Algebra Appl., 438-4 (2013),
 
 
 
