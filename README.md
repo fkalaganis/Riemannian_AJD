@@ -8,7 +8,7 @@ The reposity contains code for data generation and method implementation of the 
 ### Memo_Riemannian_JD_synthetic_TV:
 >Contains the code for SPD matrix Quantization on synthetic data. Two classes of data are being generated. In the first a diple is activated with alpha energy increasing over time. In the secorn class, the same dipople is activated with decreasing energy over time. The same mixing matrix is applied in both cases and the rest of dipoles are assigned with pink noise. The concept here is to demonstrate that the symbolic timeseries (stemming from the quantization of AJDed spatial coviariance matrices) are capable of capturing, these simple yet subtle, dynamics. Since the colorcoding is based on the Riemannian k-Means algorithm, a re-arrangement of the codebook might be essential so as to match the blue (low energy) to yellow (high energy) hue.
 
-Please note that the provided folders, **Created Functions** and **Dependencied**, should be added to matlab's path. In case of usage, please acknowledge the following works accordingly:
+Please note that the provided folders, **Created Functions** and **Dependencies**, should be added to Matlab's path. In case of usage, please acknowledge the following works accordingly:
 - SPD Toolbox
   - K. You, H.-J. Park, Re-visiting riemannian geometry of symmetric positive definite matrices for the analysis of functional connectivity, NeuroImage 225 (2021) 117464.
 - Synthetic Data Generation
